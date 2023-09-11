@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VOCA"
+            android:textSize="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVoca"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="단어장 보기"
+        android:textSize="20dp"
+        android:onClick="collect1Click"/>
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="단어장 생성"
+        android:textSize="20dp"
+        android:onClick="createClick"/>
+
+    <Button
+        android:id="@+id/btnDown"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="단어장 다운"
+        android:textSize="20dp"
+        android:onClick="downloadClick"/>
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="단어시험"
+        android:textSize="20dp"
+        android:onClick="testClick"/>
+
+
+
+</LinearLayout>

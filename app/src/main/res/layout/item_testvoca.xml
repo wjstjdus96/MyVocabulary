@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/voca_testnum"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text="안"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_weight="0.5"
+        android:background="@drawable/edge"/>
+
+    <TextView
+        android:id="@+id/voca_testword"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="안"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_weight="3"
+        android:background="@drawable/edge"/>
+
+    <EditText
+        android:id="@+id/voca_testmean"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@drawable/edge"
+        android:textSize="18dp"
+        android:visibility="visible" />
+
+</LinearLayout>
